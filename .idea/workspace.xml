@@ -77,8 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ocado/osp/comms/experiments/TestZonedDateTime.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ocado/osp/comms/experiments/CheckUtf8SubstitutionChar.java" />
         <option value="$PROJECT_DIR$/src/test/java/CheckUtf8SubstitutionChar.java" />
         <option value="$PROJECT_DIR$/src/test/java/CheckUtf8ReplacementChar.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestZonedDateTime.java" />
