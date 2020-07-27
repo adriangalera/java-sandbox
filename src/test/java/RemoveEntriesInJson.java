@@ -1,6 +1,6 @@
-import com.jayway.jsonpath.DocumentContext;
 import com.jayway.jsonpath.JsonPath;
 import java.util.List;
+import java.util.Map;
 import org.junit.Test;
 
 public class RemoveEntriesInJson {
@@ -44,16 +44,32 @@ public class RemoveEntriesInJson {
         + "    }\n"
         + "}";
 
+    private final String arrayJson = "[\n"
+        + "    {\n"
+        + "        \"a\": \"a\",\n"
+        + "        \"b\": \"b\",\n"
+        + "        \"c\": \"c\"\n"
+        + "    },\n"
+        + "    {\n"
+        + "        \"a\": \"a\",\n"
+        + "        \"b\": \"b\",\n"
+        + "        \"c\": \"c\"\n"
+        + "    },\n"
+        + "]";
+
     @Test
-    public void shouldRemoveSomeEntriesInJson(){
+    public void shouldRemoveSomeEntriesInJson() {
+        Object o = JsonPath.parse(json).read("$.order.items.substitutes[1].h");
+        System.out.println(o instanceof Map);
+        System.out.println(o instanceof List);
 
+//        DocumentContext ctx = JsonPath.parse(json).delete("$.order.items.substitutes[*].c");
+//        System.out.println(ctx.jsonString());
+    }
 
-        DocumentContext ctx = JsonPath.parse(json).delete("$.order.items.substitutes[*].c");
-        System.out.println(ctx.jsonString());
-
-
-
-
-
+    @Test
+    public void shouldIterateArray() {
+        Object o = JsonPath.parse(arrayJson).read("$.[0].c");
+        System.out.println(o);
     }
 }
