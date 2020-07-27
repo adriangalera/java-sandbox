@@ -15,7 +15,13 @@ public class FlyingSaucerSpecialCharactersTest {
 
     @Test
     public void templateShouldRenderJapaneseCharacters() throws DocumentException, IOException, URISyntaxException {
-        String html = "<html>\n"
+        final String textPre = "Following text will contain japanese characters";
+        final String japaneseText = "これはテストです";
+        final String textPost = "End of japanese characters";
+
+        final int expectedBytes = 1636;
+
+        final String html = "<html>\n"
             + "<head>\n"
             + "    <style>\n"
             + "        body{\n"
@@ -24,37 +30,46 @@ public class FlyingSaucerSpecialCharactersTest {
             + "    </style>\n"
             + "</head>\n"
             + "<body>\n"
-            + "<p>Following text will contain japanese characters</p>\n"
-            + "<p>これはテストです</p>\n"
-            + "<p>End of japanese characters</p>\n"
+            + "<p>" + textPre + "</p>\n"
+            + "<p>" + japaneseText + "</p>\n"
+            + "<p>" + textPost + "</p>\n"
             + "</body>\n"
             + "</html>";
         byte[] pdfContents = convertToPdf(html);
-        String filename = "japanese-" + new Date().toString() + ".pdf";
+        String filename = "/tmp/japanese-" + new Date().toString() + ".pdf";
         writePdf(pdfContents, filename);
-        Assert.fail("to do text extraction on generated pdf");
+        Assert.assertEquals(expectedBytes, pdfContents.length);
     }
 
     @Test
     public void templateShouldRenderPolishCharacters() throws DocumentException, IOException, URISyntaxException {
-        String html = "<html>\n"
+        final String textPre = "Following text will contain polish characters";
+        final String polishText = "Zażółć gęślą jaźń";
+        final String textPost = "End of polish characters";
+
+        final int expectedBytes = 9499;
+
+        final String fontWithPolishSupport = "Abhaya Libre";
+
+        final String html = "<html>\n"
             + "<head>\n"
             + "    <style>\n"
             + "        body{\n"
-            + "            font: 15px 'Abhaya Libre', sans-serif;\n"
+            + "            font: 15px '" + fontWithPolishSupport + "', sans-serif;\n"
             + "        }\n"
             + "    </style>\n"
             + "</head>\n"
             + "<body>\n"
-            + "<p>Following text will contain polish characters</p>\n"
-            + "<p>Zażółć gęślą jaźń</p>\n"
-            + "<p>End of polish characters</p>\n"
+            + "<p>" + textPre + "</p>\n"
+            + "<p>" + polishText + "</p>\n"
+            + "<p>" + textPost + "</p>\n"
             + "</body>\n"
             + "</html>";
         byte[] pdfContents = convertToPdf(html);
-        String filename = "polish-" + new Date().toString() + ".pdf";
+        String filename = "/tmp/polish-" + new Date().toString() + ".pdf";
         writePdf(pdfContents, filename);
-        Assert.fail("to do text extraction on generated pdf");
+
+        Assert.assertEquals(expectedBytes, pdfContents.length);
     }
 
     private byte[] convertToPdf(String html) throws DocumentException, IOException, URISyntaxException {
