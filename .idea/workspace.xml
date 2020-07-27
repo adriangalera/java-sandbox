@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="067797c0-ea7b-4e71-a49d-6c39e2ce305c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/FlyingSaucerPdfJapaneseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/fonts/SourceSansPro-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/fonts/SourceSansPro-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/fonts/SourceSansPro-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/fonts/SourceSansPro-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/fonts/NotoSansJP-Thin.otf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RemoveEntriesInJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RemoveEntriesInJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FlyingSaucerPdfJapaneseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlyingSaucerPdfJapaneseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/fonts/SourceSansPro-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/fonts/SourceSansPro-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/fonts/SourceSansPro-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/fonts/SourceSansPro-Regular.ttf" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -31,13 +30,51 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="java-sandbox" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="java-sandbox" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="java-sandbox" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="java-sandbox" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FlyingSaucerPdfJapaneseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="300">
+              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,6 +92,11 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>CJK</find>
+      <find>FONT_TYPE_CJK</find>
+      <find>addC</find>
+    </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
@@ -88,6 +130,7 @@
         <option value="$PROJECT_DIR$/src/test/java/MapTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/BigDecimalTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/RemoveEntriesInJson.java" />
+        <option value="$PROJECT_DIR$/jap.html" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/FlyingSaucerPdfJapaneseTest.java" />
       </list>
@@ -137,6 +180,10 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -148,7 +195,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/fonts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -157,12 +204,15 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/fonts" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/fonts" />
+      <recent name="$PROJECT_DIR$/src/test/resources/jap" />
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
@@ -178,13 +228,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.FlyingSaucerPdfJapaneseTest.templateShouldRenderJapanseCharacters">
-    <configuration name="BigDecimalTest.shouldMapToNull" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.FlyingSaucerPdfJapaneseTest">
+    <configuration name="FlyingSaucerPdfJapaneseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;BigDecimalTest.shouldMapToNull&quot;" />
+        <option name="scriptParameters" value="--tests &quot;FlyingSaucerPdfJapaneseTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="FlyingSaucerPdfJapaneseTest.templateShouldRenderJapaneseCharacters" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;FlyingSaucerPdfJapaneseTest.templateShouldRenderJapaneseCharacters&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -259,33 +329,13 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RemoveEntriesInJson.shouldRemoveSomeEntriesInJson" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;RemoveEntriesInJson.shouldRemoveSomeEntriesInJson&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FlyingSaucerPdfJapaneseTest" />
+        <item itemvalue="Gradle.FlyingSaucerPdfJapaneseTest.templateShouldRenderJapaneseCharacters" />
         <item itemvalue="Gradle.FlyingSaucerPdfJapaneseTest.templateShouldRenderJapanseCharacters" />
         <item itemvalue="Gradle.LocaleTests.testLocales" />
         <item itemvalue="Gradle.RemoveEntriesInJson.shouldIterateArray" />
-        <item itemvalue="Gradle.RemoveEntriesInJson.shouldRemoveSomeEntriesInJson" />
-        <item itemvalue="Gradle.BigDecimalTest.shouldMapToNull" />
       </list>
     </recent_temporary>
   </component>
@@ -324,70 +374,70 @@
       <workItem from="1593672065609" duration="4446000" />
       <workItem from="1593756551615" duration="3666000" />
       <workItem from="1595415381446" duration="67000" />
-      <workItem from="1595838643423" duration="1650000" />
+      <workItem from="1595838643423" duration="6434000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RemoveEntriesInJson_shouldRemoveSomeEntriesInJson - 2020.07.03 at 08h 19m 36s.xml">
-      <configuration name="RemoveEntriesInJson.shouldRemoveSomeEntriesInJson" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="RemoveEntriesInJson_shouldIterateArray - 2020.07.03 at 08h 51m 21s.xml">
-      <configuration name="RemoveEntriesInJson.shouldIterateArray" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="RemoveEntriesInJson_shouldIterateArray - 2020.07.03 at 08h 51m 29s.xml">
-      <configuration name="RemoveEntriesInJson.shouldIterateArray" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="RemoveEntriesInJson_shouldIterateArray - 2020.07.03 at 08h 51m 43s.xml">
-      <configuration name="RemoveEntriesInJson.shouldIterateArray" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="LocaleTests_testLocales - 2020.07.22 at 12h 56m 32s.xml">
-      <configuration name="LocaleTests.testLocales" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="FlyingSaucerPdfJapaneseTest_templateShouldRenderJapanseCharacters - 2020.07.27 at 10h 56m 54s.xml">
+    <history-entry file="FlyingSaucerPdfJapaneseTest_templateShouldRenderJapanseCharacters - 2020.07.27 at 15h 30m 46s.xml">
       <configuration name="FlyingSaucerPdfJapaneseTest.templateShouldRenderJapanseCharacters" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="FlyingSaucerPdfJapaneseTest_templateShouldRenderJapanseCharacters - 2020.07.27 at 10h 57m 42s.xml">
+    <history-entry file="FlyingSaucerPdfJapaneseTest_templateShouldRenderJapanseCharacters - 2020.07.27 at 15h 36m 44s.xml">
       <configuration name="FlyingSaucerPdfJapaneseTest.templateShouldRenderJapanseCharacters" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="FlyingSaucerPdfJapaneseTest_templateShouldRenderJapanseCharacters - 2020.07.27 at 10h 58m 02s.xml">
+    <history-entry file="FlyingSaucerPdfJapaneseTest_templateShouldRenderJapanseCharacters - 2020.07.27 at 15h 36m 46s.xml">
       <configuration name="FlyingSaucerPdfJapaneseTest.templateShouldRenderJapanseCharacters" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="FlyingSaucerPdfJapaneseTest_templateShouldRenderJapanseCharacters - 2020.07.27 at 11h 01m 21s.xml">
+    <history-entry file="FlyingSaucerPdfJapaneseTest_templateShouldRenderJapanseCharacters - 2020.07.27 at 15h 37m 05s.xml">
       <configuration name="FlyingSaucerPdfJapaneseTest.templateShouldRenderJapanseCharacters" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="FlyingSaucerPdfJapaneseTest_templateShouldRenderJapanseCharacters - 2020.07.27 at 11h 03m 04s.xml">
+    <history-entry file="FlyingSaucerPdfJapaneseTest - 2020.07.27 at 15h 37m 27s.xml">
+      <configuration name="FlyingSaucerPdfJapaneseTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="FlyingSaucerPdfJapaneseTest_templateShouldRenderJapanseCharacters - 2020.07.27 at 15h 41m 36s.xml">
       <configuration name="FlyingSaucerPdfJapaneseTest.templateShouldRenderJapanseCharacters" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="FlyingSaucerPdfJapaneseTest_templateShouldRenderJapanseCharacters - 2020.07.27 at 15h 42m 55s.xml">
+      <configuration name="FlyingSaucerPdfJapaneseTest.templateShouldRenderJapanseCharacters" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="FlyingSaucerPdfJapaneseTest_templateShouldRenderJapaneseCharacters - 2020.07.27 at 16h 02m 34s.xml">
+      <configuration name="FlyingSaucerPdfJapaneseTest.templateShouldRenderJapaneseCharacters" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="FlyingSaucerPdfJapaneseTest_templateShouldRenderJapaneseCharacters - 2020.07.27 at 16h 03m 12s.xml">
+      <configuration name="FlyingSaucerPdfJapaneseTest.templateShouldRenderJapaneseCharacters" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="FlyingSaucerPdfJapaneseTest_templateShouldRenderJapaneseCharacters - 2020.07.27 at 16h 03m 41s.xml">
+      <configuration name="FlyingSaucerPdfJapaneseTest.templateShouldRenderJapaneseCharacters" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24959000" />
+    <option name="totallyTimeSpent" value="29743000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17110874" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17110874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29108912" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29108912" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.30510205" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3049505" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Build" order="12" weight="0.32970297" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.32995737" />
       <window_info anchor="right" id="Maven" order="4" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
@@ -406,6 +456,18 @@
           <line>63</line>
           <properties />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.xhtmlrenderer/flying-saucer-pdf/9.1.20/a7b8b2e229cef3b4c093dd2af47cadaffc96b232/flying-saucer-pdf-9.1.20-sources.jar!/org/xhtmlrenderer/pdf/ITextFontResolver.java</url>
+          <line>480</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.xhtmlrenderer/flying-saucer-pdf/9.1.20/a7b8b2e229cef3b4c093dd2af47cadaffc96b232/flying-saucer-pdf-9.1.20-sources.jar!/org/xhtmlrenderer/pdf/ITextFontResolver.java</url>
+          <line>608</line>
+          <properties />
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -572,13 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CheckUtf8ReplacementChar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -589,10 +644,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FlyingSaucerPdfJapaneseTest.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lowagie/itext/2.1.7/892bfb3e97074a61123b3b2d7caa2db112750864/itext-2.1.7.jar!/com/lowagie/text/pdf/BaseFont.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="7" lean-forward="true" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.xhtmlrenderer/flying-saucer-pdf/9.1.20/a7b8b2e229cef3b4c093dd2af47cadaffc96b232/flying-saucer-pdf-9.1.20-sources.jar!/org/xhtmlrenderer/pdf/ITextRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="142" column="20" selection-start-line="142" selection-start-column="20" selection-end-line="142" selection-end-column="20" />
+          <folding>
+            <element signature="e#5257#5258#0" expanded="true" />
+            <element signature="e#5332#5333#0" expanded="true" />
+            <element signature="e#6010#6011#0" expanded="true" />
+            <element signature="e#6062#6063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lowagie/itextasian/1.5.2/ec362597294ef6254f23f3b20baf36292ad50bba/itextasian-1.5.2.jar!/com/lowagie/text/pdf/fonts/MSung-Light.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lowagie/itextasian/1.5.2/ec362597294ef6254f23f3b20baf36292ad50bba/itextasian-1.5.2.jar!/com/lowagie/text/pdf/fonts/UniGB-UCS2-H.cmap">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lowagie/itextasian/1.5.2/ec362597294ef6254f23f3b20baf36292ad50bba/itextasian-1.5.2.jar!/com/lowagie/text/pdf/fonts/cjkfonts.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lowagie/itextasian/1.5.2/ec362597294ef6254f23f3b20baf36292ad50bba/itextasian-1.5.2.jar!/com/lowagie/text/pdf/fonts/cjkencodings.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lowagie/itextasian/1.5.2/ec362597294ef6254f23f3b20baf36292ad50bba/itextasian-1.5.2.jar!/com/lowagie/text/pdf/fonts/cmap_info.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.xhtmlrenderer/flying-saucer-pdf/9.1.20/a7b8b2e229cef3b4c093dd2af47cadaffc96b232/flying-saucer-pdf-9.1.20-sources.jar!/org/xhtmlrenderer/pdf/ITextFontResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="608" selection-start-line="608" selection-end-line="608" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.xhtmlrenderer/flying-saucer-pdf-itext5/9.1.20/1326726391c1e7a8b6692949a91d83df7c74fad7/flying-saucer-pdf-itext5-9.1.20.jar!/org/xhtmlrenderer/pdf/ITextFontResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="452" column="13" lean-forward="true" selection-start-line="452" selection-start-column="13" selection-end-line="452" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#31913#0" expanded="true" />
+            <element signature="e#7522#7771#0" expanded="true" />
+            <element signature="e#7770#7771#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.xhtmlrenderer/flying-saucer-pdf-itext5/9.1.20/8dad0c8fadf417ad57fa5e58b0007b21b7317743/flying-saucer-pdf-itext5-9.1.20-sources.jar!/org/xhtmlrenderer/pdf/ITextFontResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="463" selection-start-line="463" selection-end-line="466" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#32420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <caret line="21" column="71" lean-forward="true" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FlyingSaucerPdfJapaneseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
