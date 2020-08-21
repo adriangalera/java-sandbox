@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="067797c0-ea7b-4e71-a49d-6c39e2ce305c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/codewars/BreakCamelCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/codewars/Palindromes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/codewars/Prime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestZonedDateTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestZonedDateTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/codewars/Palindromes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/codewars/Palindromes.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -68,10 +64,14 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestZonedDateTime.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/codewars/Palindromes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="509">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2220#2221#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,10 +134,10 @@
         <option value="$PROJECT_DIR$/src/test/java/Prime.java" />
         <option value="$PROJECT_DIR$/src/test/java/BreakCamelCase.java" />
         <option value="$PROJECT_DIR$/src/test/java/mockito/argcaptor/Palindromes.java" />
-        <option value="$PROJECT_DIR$/src/test/java/codewars/Palindromes.java" />
         <option value="$PROJECT_DIR$/src/test/java/codewars/BreakCamelCase.java" />
         <option value="$PROJECT_DIR$/src/test/java/codewars/Prime.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestZonedDateTime.java" />
+        <option value="$PROJECT_DIR$/src/test/java/codewars/Palindromes.java" />
       </list>
     </option>
   </component>
@@ -184,7 +184,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="argcaptor" type="462c0819:PsiDirectoryNode" />
+              <item name="codewars" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-sandbox" type="b2602c69:ProjectViewProjectNode" />
@@ -276,33 +276,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.Palindromes.basicTests">
-    <configuration name="BreakCamelCase" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;BreakCamelCase&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.Palindromes.moreTests">
     <configuration name="Palindromes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;mockito.argcaptor.Palindromes&quot;" />
+        <option name="scriptParameters" value="--tests &quot;codewars.Palindromes&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -322,7 +302,27 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;mockito.argcaptor.Palindromes.basicTests&quot;" />
+        <option name="scriptParameters" value="--tests &quot;codewars.Palindromes.basicTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Palindromes.moreTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;codewars.Palindromes.moreTests&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -379,11 +379,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Palindromes.moreTests" />
+        <item itemvalue="Gradle.Palindromes" />
+        <item itemvalue="Gradle.Palindromes.basicTests" />
         <item itemvalue="Gradle.Palindromes.basicTests" />
         <item itemvalue="Gradle.Palindromes" />
-        <item itemvalue="Gradle.BreakCamelCase" />
-        <item itemvalue="Gradle.TestZonedDateTime.testSydneyTimezone" />
-        <item itemvalue="Gradle.Prime" />
       </list>
     </recent_temporary>
   </component>
@@ -427,56 +427,56 @@
       <workItem from="1595940539528" duration="21000" />
       <workItem from="1597926890755" duration="4829000" />
       <workItem from="1597995313606" duration="8000" />
-      <workItem from="1598002314742" duration="4159000" />
+      <workItem from="1598002314742" duration="4807000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Palindromes_basicTests - 2020.08.21 at 15h 00m 03s.xml">
+    <history-entry file="Palindromes_basicTests - 2020.08.21 at 15h 16m 59s.xml">
       <configuration name="Palindromes.basicTests" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Palindromes_basicTests - 2020.08.21 at 15h 00m 24s.xml">
-      <configuration name="Palindromes.basicTests" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="Palindromes - 2020.08.21 at 15h 00m 31s.xml">
+    <history-entry file="Palindromes - 2020.08.21 at 15h 19m 52s.xml">
       <configuration name="Palindromes" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Palindromes - 2020.08.21 at 15h 11m 21s.xml">
+    <history-entry file="Palindromes - 2020.08.21 at 15h 20m 08s.xml">
       <configuration name="Palindromes" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Palindromes - 2020.08.21 at 15h 11m 49s.xml">
+    <history-entry file="Palindromes - 2020.08.21 at 15h 20m 32s.xml">
       <configuration name="Palindromes" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Palindromes - 2020.08.21 at 15h 11m 56s.xml">
+    <history-entry file="Palindromes - 2020.08.21 at 15h 21m 16s.xml">
       <configuration name="Palindromes" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Palindromes - 2020.08.21 at 15h 12m 05s.xml">
+    <history-entry file="Palindromes_moreTests - 2020.08.21 at 15h 22m 55s.xml">
+      <configuration name="Palindromes.moreTests" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="Palindromes - 2020.08.21 at 15h 23m 36s.xml">
       <configuration name="Palindromes" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Palindromes - 2020.08.21 at 15h 13m 06s.xml">
-      <configuration name="Palindromes" configurationId="GradleRunConfiguration" />
+    <history-entry file="Palindromes_moreTests - 2020.08.21 at 15h 23m 40s.xml">
+      <configuration name="Palindromes.moreTests" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Palindromes_basicTests - 2020.08.21 at 15h 13m 16s.xml">
-      <configuration name="Palindromes.basicTests" configurationId="GradleRunConfiguration" />
+    <history-entry file="Palindromes_moreTests - 2020.08.21 at 15h 24m 12s.xml">
+      <configuration name="Palindromes.moreTests" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Palindromes_basicTests - 2020.08.21 at 15h 15m 17s.xml">
-      <configuration name="Palindromes.basicTests" configurationId="GradleRunConfiguration" />
+    <history-entry file="Palindromes_moreTests - 2020.08.21 at 15h 27m 32s.xml">
+      <configuration name="Palindromes.moreTests" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44610000" />
+    <option name="totallyTimeSpent" value="45258000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18070363" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18070363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29108912" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29108912" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -819,27 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/codewars/Palindromes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1627#1628#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/codewars/BreakCamelCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/codewars/Prime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -856,8 +835,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestZonedDateTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="225">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/codewars/BreakCamelCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/codewars/Palindromes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2220#2221#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

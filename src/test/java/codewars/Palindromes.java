@@ -15,13 +15,23 @@ public class Palindromes {
 
         for (char c : s.toCharArray()) {
             candidate = candidate + c;
+            System.out.println(candidate);
             if (reverse.contains(candidate)) {
-                //System.out.println("Palindrome detected ::: " + candidate);
                 if (candidate.equals(reverse(candidate))) {
+                    System.out.println("Palindrome detected ::: " + candidate);
                     longestPalindromeSize = Math.max(candidate.length(), longestPalindromeSize);
                 }
             } else {
                 candidate = Character.toString(c);
+                System.out.println(c);
+                if (reverse.contains(candidate)) {
+                    if (candidate.equals(reverse(candidate))) {
+                        System.out.println("Palindrome detected ::: " + candidate);
+                        longestPalindromeSize = Math.max(candidate.length(), longestPalindromeSize);
+                    }
+                } else {
+                    candidate = "";
+                }
             }
         }
 
@@ -42,11 +52,18 @@ public class Palindromes {
         doTest("baa", 2);
         doTest("aab", 2);
         doTest("zyabyz", 1);
+        doTest("zyabyz", 1);
         doTest("baabcd", 4);
         doTest("abcacba", 7);
 
         doTest("baablkj12345432133d", 9);
         doTest("I like racecars that go fast", 7);
+    }
+
+    @Test
+    public void moreTests() {
+        doTest("zzbaabcd", 4);
+
         doTest("b3tspypp48.1ifv 4.pp f9qwko5 vdj aoa jdv 5okwq9f pp.4 vfi1.84ppyps0", 63);
     }
 
