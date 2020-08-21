@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="067797c0-ea7b-4e71-a49d-6c39e2ce305c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/codewars/BreakCamelCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/codewars/Palindromes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/codewars/Prime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FlyingSaucerSpecialCharactersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlyingSaucerSpecialCharactersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestZonedDateTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestZonedDateTime.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -65,13 +68,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/FlyingSaucerSpecialCharactersTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestZonedDateTime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="68" column="32" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -91,9 +91,9 @@
       <find>FONT_TYPE_CJK</find>
       <find>addC</find>
       <find>\t</find>
+      <find>zzbaabcd</find>
     </findStrings>
     <replaceStrings>
-      <replace />
       <replace />
     </replaceStrings>
   </component>
@@ -105,7 +105,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/CheckUtf8SubstitutionChar.java" />
         <option value="$PROJECT_DIR$/src/test/java/CheckUtf8ReplacementChar.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestZonedDateTime.java" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/CheckEmptyString.java" />
         <option value="$PROJECT_DIR$/src/test/java/Array.java" />
@@ -123,13 +122,22 @@
         <option value="$PROJECT_DIR$/src/test/java/LocaleTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/InstanceOfAndNull.java" />
         <option value="$PROJECT_DIR$/src/test/java/Map.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MapTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/BigDecimalTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/RemoveEntriesInJson.java" />
         <option value="$PROJECT_DIR$/jap.html" />
         <option value="$PROJECT_DIR$/src/test/java/FlyingSaucerPdfJapaneseTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/FlyingSaucerSpecialCharactersTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mockito/argcaptor/IsPrime.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IsPrime.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MapTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Prime.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BreakCamelCase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mockito/argcaptor/Palindromes.java" />
+        <option value="$PROJECT_DIR$/src/test/java/codewars/Palindromes.java" />
+        <option value="$PROJECT_DIR$/src/test/java/codewars/BreakCamelCase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/codewars/Prime.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestZonedDateTime.java" />
       </list>
     </option>
   </component>
@@ -144,7 +152,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,6 +183,14 @@
               <item name="java-sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="argcaptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -189,36 +205,63 @@
               <item name="java-sandbox" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="java-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="java-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/fonts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/fonts" />
+      <recent name="$PROJECT_DIR$/src/test/resources/jap" />
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources/fonts" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources/fonts" />
-      <recent name="$PROJECT_DIR$/src/test/resources/jap" />
-      <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -233,13 +276,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.FlyingSaucerSpecialCharactersTest">
-    <configuration name="FlyingSaucerPdfJapaneseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.Palindromes.basicTests">
+    <configuration name="BreakCamelCase" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FlyingSaucerPdfJapaneseTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;BreakCamelCase&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -254,12 +297,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FlyingSaucerPdfJapaneseTest.templateShouldRenderPolishCharacters" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Palindromes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FlyingSaucerPdfJapaneseTest.templateShouldRenderPolishCharacters&quot;" />
+        <option name="scriptParameters" value="--tests &quot;mockito.argcaptor.Palindromes&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -274,12 +317,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FlyingSaucerSpecialCharactersTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Palindromes.basicTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FlyingSaucerSpecialCharactersTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;mockito.argcaptor.Palindromes.basicTests&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -294,12 +337,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FlyingSaucerSpecialCharactersTest.templateShouldRenderJapaneseCharacters" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Prime" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FlyingSaucerSpecialCharactersTest.templateShouldRenderJapaneseCharacters&quot;" />
+        <option name="scriptParameters" value="--tests &quot;Prime&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -314,12 +357,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FlyingSaucerSpecialCharactersTest.templateShouldRenderPolishCharacters" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestZonedDateTime.testSydneyTimezone" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FlyingSaucerSpecialCharactersTest.templateShouldRenderPolishCharacters&quot;" />
+        <option name="scriptParameters" value="--tests &quot;TestZonedDateTime.testSydneyTimezone&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -336,11 +379,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.FlyingSaucerSpecialCharactersTest" />
-        <item itemvalue="Gradle.FlyingSaucerSpecialCharactersTest.templateShouldRenderPolishCharacters" />
-        <item itemvalue="Gradle.FlyingSaucerSpecialCharactersTest.templateShouldRenderJapaneseCharacters" />
-        <item itemvalue="Gradle.FlyingSaucerPdfJapaneseTest" />
-        <item itemvalue="Gradle.FlyingSaucerPdfJapaneseTest.templateShouldRenderPolishCharacters" />
+        <item itemvalue="Gradle.Palindromes.basicTests" />
+        <item itemvalue="Gradle.Palindromes" />
+        <item itemvalue="Gradle.BreakCamelCase" />
+        <item itemvalue="Gradle.TestZonedDateTime.testSydneyTimezone" />
+        <item itemvalue="Gradle.Prime" />
       </list>
     </recent_temporary>
   </component>
@@ -379,55 +422,60 @@
       <workItem from="1593672065609" duration="4446000" />
       <workItem from="1593756551615" duration="3666000" />
       <workItem from="1595415381446" duration="67000" />
-      <workItem from="1595838643423" duration="9834000" />
+      <workItem from="1595838643423" duration="9862000" />
+      <workItem from="1595917736585" duration="2422000" />
+      <workItem from="1595940539528" duration="21000" />
+      <workItem from="1597926890755" duration="4829000" />
+      <workItem from="1597995313606" duration="8000" />
+      <workItem from="1598002314742" duration="4159000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FlyingSaucerSpecialCharactersTest_templateShouldRenderJapaneseCharacters - 2020.07.27 at 17h 06m 05s.xml">
-      <configuration name="FlyingSaucerSpecialCharactersTest.templateShouldRenderJapaneseCharacters" configurationId="GradleRunConfiguration" />
+    <history-entry file="Palindromes_basicTests - 2020.08.21 at 15h 00m 03s.xml">
+      <configuration name="Palindromes.basicTests" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="FlyingSaucerSpecialCharactersTest_templateShouldRenderJapaneseCharacters - 2020.07.27 at 17h 06m 35s.xml">
-      <configuration name="FlyingSaucerSpecialCharactersTest.templateShouldRenderJapaneseCharacters" configurationId="GradleRunConfiguration" />
+    <history-entry file="Palindromes_basicTests - 2020.08.21 at 15h 00m 24s.xml">
+      <configuration name="Palindromes.basicTests" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="FlyingSaucerSpecialCharactersTest_templateShouldRenderJapaneseCharacters - 2020.07.27 at 17h 06m 59s.xml">
-      <configuration name="FlyingSaucerSpecialCharactersTest.templateShouldRenderJapaneseCharacters" configurationId="GradleRunConfiguration" />
+    <history-entry file="Palindromes - 2020.08.21 at 15h 00m 31s.xml">
+      <configuration name="Palindromes" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="FlyingSaucerSpecialCharactersTest - 2020.07.27 at 17h 07m 13s.xml">
-      <configuration name="FlyingSaucerSpecialCharactersTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="Palindromes - 2020.08.21 at 15h 11m 21s.xml">
+      <configuration name="Palindromes" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="FlyingSaucerSpecialCharactersTest_templateShouldRenderPolishCharacters - 2020.07.27 at 17h 07m 54s.xml">
-      <configuration name="FlyingSaucerSpecialCharactersTest.templateShouldRenderPolishCharacters" configurationId="GradleRunConfiguration" />
+    <history-entry file="Palindromes - 2020.08.21 at 15h 11m 49s.xml">
+      <configuration name="Palindromes" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="FlyingSaucerSpecialCharactersTest_templateShouldRenderPolishCharacters - 2020.07.27 at 17h 08m 12s.xml">
-      <configuration name="FlyingSaucerSpecialCharactersTest.templateShouldRenderPolishCharacters" configurationId="GradleRunConfiguration" />
+    <history-entry file="Palindromes - 2020.08.21 at 15h 11m 56s.xml">
+      <configuration name="Palindromes" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="FlyingSaucerSpecialCharactersTest_templateShouldRenderPolishCharacters - 2020.07.27 at 17h 08m 23s.xml">
-      <configuration name="FlyingSaucerSpecialCharactersTest.templateShouldRenderPolishCharacters" configurationId="GradleRunConfiguration" />
+    <history-entry file="Palindromes - 2020.08.21 at 15h 12m 05s.xml">
+      <configuration name="Palindromes" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="FlyingSaucerSpecialCharactersTest_templateShouldRenderPolishCharacters - 2020.07.27 at 17h 09m 11s.xml">
-      <configuration name="FlyingSaucerSpecialCharactersTest.templateShouldRenderPolishCharacters" configurationId="GradleRunConfiguration" />
+    <history-entry file="Palindromes - 2020.08.21 at 15h 13m 06s.xml">
+      <configuration name="Palindromes" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="FlyingSaucerSpecialCharactersTest - 2020.07.27 at 17h 09m 38s.xml">
-      <configuration name="FlyingSaucerSpecialCharactersTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="Palindromes_basicTests - 2020.08.21 at 15h 13m 16s.xml">
+      <configuration name="Palindromes.basicTests" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="FlyingSaucerSpecialCharactersTest - 2020.07.27 at 17h 09m 59s.xml">
-      <configuration name="FlyingSaucerSpecialCharactersTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="Palindromes_basicTests - 2020.08.21 at 15h 15m 17s.xml">
+      <configuration name="Palindromes.basicTests" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33143000" />
+    <option name="totallyTimeSpent" value="44610000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17110874" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18070363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.29108912" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -435,7 +483,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3049505" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3049505" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Build" order="12" weight="0.32970297" />
@@ -461,6 +509,12 @@
           <line>63</line>
           <properties />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/codewars/Prime.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -551,13 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestZonedDateTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Locales.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/SetProperties.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/InstanceOfAndNull.java">
@@ -584,16 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="84" column="20" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -681,13 +718,7 @@
     <entry file="file://$PROJECT_DIR$/gradlew">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/jap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/jap.html" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lowagie/itext/2.1.7/892bfb3e97074a61123b3b2d7caa2db112750864/itext-2.1.7.jar!/com/lowagie/text/pdf/BaseFont.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -754,20 +785,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FlyingSaucerSpecialCharactersTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="68" column="32" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
+        <state relative-caret-position="379">
+          <caret line="62" column="40" lean-forward="true" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="2866" column="18" selection-start-line="2866" selection-start-column="18" selection-end-line="2866" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/codewars/Palindromes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1627#1628#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/codewars/BreakCamelCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/codewars/Prime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2310#2311#0" expanded="true" />
+            <element signature="e#2352#2353#0" expanded="true" />
+            <element signature="e#3892#3893#0" expanded="true" />
+            <element signature="e#3973#3974#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestZonedDateTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
