@@ -6,35 +6,50 @@ import org.junit.Test;
 
 public class Palindromes {
 
+//    public static int longestPalindrome(final String s) {
+//        final String withoutSpaces = s.replaceAll(" ", "");
+//        String reverse = reverse(withoutSpaces);
+//        int longestPalindromeSize = 0;
+//
+//        String candidate = "";
+//
+//        for (char c : s.toCharArray()) {
+//            candidate = candidate + c;
+//            System.out.println(candidate);
+//            if (reverse.contains(candidate)) {
+//                if (candidate.equals(reverse(candidate))) {
+//                    System.out.println("Palindrome detected ::: " + candidate);
+//                    longestPalindromeSize = Math.max(candidate.length(), longestPalindromeSize);
+//                }
+//            } else {
+//                candidate = Character.toString(c);
+//                System.out.println(c);
+//                if (reverse.contains(candidate)) {
+//                    if (candidate.equals(reverse(candidate))) {
+//                        System.out.println("Palindrome detected ::: " + candidate);
+//                        longestPalindromeSize = Math.max(candidate.length(), longestPalindromeSize);
+//                    }
+//                } else {
+//                    candidate = "";
+//                }
+//            }
+//        }
+//
+//        return longestPalindromeSize;
+//    }
+
     public static int longestPalindrome(final String s) {
-        final String withoutSpaces = s.replaceAll(" ", "");
-        String reverse = reverse(withoutSpaces);
         int longestPalindromeSize = 0;
 
-        String candidate = "";
-
-        for (char c : s.toCharArray()) {
-            candidate = candidate + c;
-            System.out.println(candidate);
-            if (reverse.contains(candidate)) {
+        for (int i = 0; i < s.length(); i++) {
+            for (int j = i; j < s.length(); j++) {
+                String candidate = s.substring(i, j + 1);
                 if (candidate.equals(reverse(candidate))) {
-                    System.out.println("Palindrome detected ::: " + candidate);
                     longestPalindromeSize = Math.max(candidate.length(), longestPalindromeSize);
                 }
-            } else {
-                candidate = Character.toString(c);
-                System.out.println(c);
-                if (reverse.contains(candidate)) {
-                    if (candidate.equals(reverse(candidate))) {
-                        System.out.println("Palindrome detected ::: " + candidate);
-                        longestPalindromeSize = Math.max(candidate.length(), longestPalindromeSize);
-                    }
-                } else {
-                    candidate = "";
-                }
+
             }
         }
-
         return longestPalindromeSize;
     }
 
