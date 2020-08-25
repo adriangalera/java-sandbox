@@ -123,4 +123,33 @@ public class ParseMolecule {
     public void testException() {
         ParseMolecule.getAtoms("pie");
     }
+
+    @Test
+    public void testCyclopentadienyliron() {
+        String name = "cyclopentadienyliron dicarbonyl dimer";
+        String formula = "(C5H5)Fe(CO)2CH3";
+        Map<String, Integer> expected = new HashMap<>();
+        expected.put("C", 8);
+        expected.put("H", 8);
+        expected.put("Fe", 1);
+        expected.put("O", 2);
+        assertEquals(String.format("Should parse %s: %s", name, formula), expected, ParseMolecule.getAtoms(formula));
+
+    }
+
+    @Test
+    public void testEvilWater() {
+        String name = "evil water";
+        String formula = "{((H)2)[O]}";
+        Map<String, Integer> expected = new HashMap<>();
+        expected.put("H", 2);
+        expected.put("O", 1);
+        System.out.println(expected);
+        assertEquals(String.format("Should parse %s: %s", name, formula), expected, ParseMolecule.getAtoms(formula));
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testWrongFormula() {
+        ParseMolecule.getAtoms("Mg(OH");
+    }
 }

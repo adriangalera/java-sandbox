@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="067797c0-ea7b-4e71-a49d-6c39e2ce305c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/codewars/ParseMolecule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/codewars/ParseMolecule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/codewars/ParseMolecule.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -67,12 +66,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/codewars/ParseMolecule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+            <state relative-caret-position="658">
+              <caret line="152" column="40" selection-start-line="152" selection-start-column="40" selection-end-line="152" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#346#363#0" expanded="true" />
                 <element signature="e#4351#4352#0" expanded="true" />
+                <element signature="e#5269#5270#0" expanded="true" />
+                <element signature="e#5314#5315#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -257,6 +258,26 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="ParseMolecule.testCyclopentadienyliron" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;codewars.ParseMolecule.testCyclopentadienyliron&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="ParseMolecule.testFe" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -317,33 +338,13 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ParseMolecule.testWater200_2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;codewars.ParseMolecule.testWater200_2&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.ParseMolecule" />
+        <item itemvalue="Gradle.ParseMolecule.testCyclopentadienyliron" />
         <item itemvalue="Gradle.ParseMolecule.testFremysSalt" />
         <item itemvalue="Gradle.ParseMolecule.testFe" />
         <item itemvalue="Gradle.ParseMolecule.testWater" />
-        <item itemvalue="Gradle.ParseMolecule.testWater200_2" />
       </list>
     </recent_temporary>
   </component>
@@ -391,23 +392,11 @@
       <workItem from="1598262802911" duration="66000" />
       <workItem from="1598263715893" duration="4244000" />
       <workItem from="1598343999477" duration="8000" />
-      <workItem from="1598358752251" duration="6125000" />
+      <workItem from="1598358752251" duration="6508000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ParseMolecule_testFremysSalt - 2020.08.25 at 16h 23m 06s.xml">
-      <configuration name="ParseMolecule.testFremysSalt" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ParseMolecule - 2020.08.25 at 16h 27m 45s.xml">
-      <configuration name="ParseMolecule" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ParseMolecule_testFe - 2020.08.25 at 16h 28m 57s.xml">
-      <configuration name="ParseMolecule.testFe" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ParseMolecule_testFe - 2020.08.25 at 16h 28m 58s.xml">
-      <configuration name="ParseMolecule.testFe" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="ParseMolecule - 2020.08.25 at 16h 31m 03s.xml">
       <configuration name="ParseMolecule" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -426,9 +415,21 @@
     <history-entry file="ParseMolecule_testFremysSalt - 2020.08.25 at 16h 39m 57s.xml">
       <configuration name="ParseMolecule.testFremysSalt" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="ParseMolecule - 2020.08.25 at 16h 40m 05s.xml">
+      <configuration name="ParseMolecule" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ParseMolecule_testCyclopentadienyliron - 2020.08.25 at 16h 44m 49s.xml">
+      <configuration name="ParseMolecule.testCyclopentadienyliron" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ParseMolecule - 2020.08.25 at 16h 44m 57s.xml">
+      <configuration name="ParseMolecule" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ParseMolecule - 2020.08.25 at 16h 46m 05s.xml">
+      <configuration name="ParseMolecule" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55715000" />
+    <option name="totallyTimeSpent" value="56098000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="0" width="1920" height="1080" extended-state="0" />
@@ -440,14 +441,14 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28217822" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28217822" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.31428573" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3138614" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Build" order="12" weight="0.32970297" />
@@ -485,18 +486,6 @@
           <line>41</line>
           <properties />
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/codewars/ParseMolecule.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/codewars/ParseMolecule.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -939,12 +928,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/codewars/ParseMolecule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+        <state relative-caret-position="658">
+          <caret line="152" column="40" selection-start-line="152" selection-start-column="40" selection-end-line="152" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#346#363#0" expanded="true" />
             <element signature="e#4351#4352#0" expanded="true" />
+            <element signature="e#5269#5270#0" expanded="true" />
+            <element signature="e#5314#5315#0" expanded="true" />
           </folding>
         </state>
       </provider>
