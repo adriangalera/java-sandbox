@@ -12,17 +12,49 @@ import org.junit.Test;
 public class ParseMolecule {
 
     public static Map<String, Integer> getAtoms(String formula) {
-        Map<String, Integer> atoms = new HashMap<String, Integer>();
+        Map<String, Integer> atoms = new HashMap<>();
 
-        final Pattern groupedRegex = Pattern.compile("([(\\[{](.*)[)\\]}]([0-9]*))");
-        Matcher mGroup = groupedRegex.matcher(formula);
+        formula = processGroupRegex(formula, atoms, Pattern.compile("([{]([^{]*?)[}]([0-9])*)"));
+        formula = processGroupRegex(formula, atoms, Pattern.compile("([\\[]([^\\[]*?)[\\]]([0-9])*)"));
+        formula = processGroupRegex(formula, atoms, Pattern.compile("([(]([^(]*?)[)]([0-9])*)"));
+        formula = processSimpleElementRegex(formula, atoms, Pattern.compile("([A-Z][a-z]?)([0-9]*)"));
 
-        while (mGroup.find()) {
-            String fullGroup = mGroup.group(1);
+        if (!formula.isEmpty() && !hasTrailingSeparators(formula)) {
+            throw new IllegalArgumentException();
+        }
+
+        return atoms;
+    }
+
+    private static boolean hasTrailingSeparators(String formula) {
+        return formula.equals("()") || formula.equals("[]") || formula.equals("{}");
+    }
+
+    private static String processSimpleElementRegex(String formula, Map<String, Integer> atoms,
+                                                    Pattern nonGroupedRegex) {
+        Matcher m = nonGroupedRegex.matcher(formula);
+
+        while (m.find()) {
+            String match = m.group();
+            formula = formula.replace(match, "");
+            String element = m.group(1);
+            String count = m.group(2);
+            Integer atomCount = count.isEmpty() ? 1 : Integer.parseInt(count);
+            Integer currentCount = atoms.getOrDefault(element, 0);
+            atoms.put(element, currentCount + atomCount);
+        }
+        return formula;
+    }
+
+    private static String processGroupRegex(String formula, Map<String, Integer> atoms, Pattern groupRegex) {
+        Matcher groupMatcher = groupRegex.matcher(formula);
+
+        while (groupMatcher.find()) {
+            String fullGroup = groupMatcher.group(1);
             formula = formula.replace(fullGroup, "");
-            String groupContent = mGroup.group(2);
-            String groupMultiplier = mGroup.group(3);
-            Integer atomCount = groupMultiplier.isEmpty() ? 1 : Integer.parseInt(groupMultiplier);
+            String groupContent = groupMatcher.group(2);
+            String groupMultiplier = groupMatcher.group(3);
+            Integer atomCount = groupMultiplier == null ? 1 : Integer.parseInt(groupMultiplier);
             Map<String, Integer> groupAtoms = getAtoms(groupContent);
             for (String element : groupAtoms.keySet()) {
                 groupAtoms.put(element, groupAtoms.get(element) * atomCount);
@@ -31,24 +63,9 @@ public class ParseMolecule {
                 atoms.merge(key, value, Integer::sum);
             });
         }
-
-        final Pattern nonGroupedRegex = Pattern.compile("([A-Z][a-z]?)([0-9]*)");
-        Matcher m = nonGroupedRegex.matcher(formula);
-
-        while (m.find()) {
-            String element = m.group(1);
-            String count = m.group(2);
-            Integer atomCount = count.isEmpty() ? 1 : Integer.parseInt(count);
-            Integer currentCount = atoms.getOrDefault(element, 0);
-            atoms.put(element, currentCount + atomCount);
-        }
-
-        if (atoms.isEmpty()) {
-            throw new IllegalArgumentException();
-        }
-
-        return atoms;
+        return formula;
     }
+
 
     @Test
     public void testWater() {
