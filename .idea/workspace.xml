@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="067797c0-ea7b-4e71-a49d-6c39e2ce305c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/java-sandbox.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/codewars/Change.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,18 +57,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>CJK</find>
-      <find>FONT_TYPE_CJK</find>
-      <find>addC</find>
-      <find>\t</find>
-      <find>zzbaabcd</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-  </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.13.8/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -82,11 +64,6 @@
   <component name="JupyterTrust" id="23e51880-287b-47bb-ae64-db1522f5a3b4" />
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="1680" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
   </component>
   <component name="ProjectId" id="1mxtw5dcP1VG7sThYQ1YFSKrjlR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -106,34 +83,36 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/fonts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/fonts" />
+      <recent name="$PROJECT_DIR$/src/test/resources/jap" />
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="codewars" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources/fonts" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources/fonts" />
-      <recent name="$PROJECT_DIR$/src/test/resources/jap" />
-      <recent name="$PROJECT_DIR$/src/test" />
-    </key>
   </component>
-  <component name="RunManager" selected="Gradle.Optionals.testJava8Map">
-    <configuration name="Optionals.testJava8Map" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.Change">
+    <configuration name="Change" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;Optionals.testJava8Map&quot;" />
+        <option name="scriptParameters" value="--tests &quot;codewars.Change&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -147,18 +126,17 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ParseMolecule" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Change.shouldReturnChangeForOneCoin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;codewars.ParseMolecule&quot;" />
+        <option name="scriptParameters" value="--tests &quot;codewars.Change.shouldReturnChangeForOneCoin&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":cleanTest" />
             <option value=":test" />
           </list>
         </option>
@@ -167,18 +145,17 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ParseMolecule.testEvilWater" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Change.shouldReturnChangeForTwoCoins" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;codewars.ParseMolecule.testEvilWater&quot;" />
+        <option name="scriptParameters" value="--tests &quot;codewars.Change.shouldReturnChangeForTwoCoins&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":cleanTest" />
             <option value=":test" />
           </list>
         </option>
@@ -187,18 +164,17 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ParseMolecule.testFremysSalt" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Change.shouldReturnChangeForTwoPennies" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;codewars.ParseMolecule.testFremysSalt&quot;" />
+        <option name="scriptParameters" value="--tests &quot;codewars.Change.shouldReturnChangeForTwoPennies&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":cleanTest" />
             <option value=":test" />
           </list>
         </option>
@@ -207,18 +183,17 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ParseMolecule.testWrongFormula" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Change.shouldReturnLeastAmountOfCoinsInSimpleSituation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;codewars.ParseMolecule.testWrongFormula&quot;" />
+        <option name="scriptParameters" value="--tests &quot;codewars.Change.shouldReturnLeastAmountOfCoinsInSimpleSituation&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":cleanTest" />
             <option value=":test" />
           </list>
         </option>
@@ -229,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Optionals.testJava8Map" />
-        <item itemvalue="Gradle.ParseMolecule" />
-        <item itemvalue="Gradle.ParseMolecule.testFremysSalt" />
-        <item itemvalue="Gradle.ParseMolecule.testWrongFormula" />
-        <item itemvalue="Gradle.ParseMolecule.testEvilWater" />
+        <item itemvalue="Gradle.Change" />
+        <item itemvalue="Gradle.Change.shouldReturnLeastAmountOfCoinsInSimpleSituation" />
+        <item itemvalue="Gradle.Change.shouldReturnChangeForTwoPennies" />
+        <item itemvalue="Gradle.Change.shouldReturnChangeForOneCoin" />
+        <item itemvalue="Gradle.Change.shouldReturnChangeForTwoCoins" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +262,7 @@
       <workItem from="1598443791613" duration="3069000" />
       <workItem from="1598514414687" duration="14000" />
       <workItem from="1610447306493" duration="550000" />
-      <workItem from="1612272974315" duration="8000" />
+      <workItem from="1612272974315" duration="4721000" />
     </task>
     <servers />
   </component>
@@ -299,22 +274,54 @@
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="2128" y="133" key="#Project_Structure/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1612272981035" />
-    <state width="1878" height="257" key="GridCell.Tab.0.bottom" timestamp="1610448671353">
+    <state x="2453" y="263" key="#com.intellij.ide.util.MemberChooser" timestamp="1612275389814">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="257" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1610448671353" />
-    <state width="1878" height="257" key="GridCell.Tab.0.center" timestamp="1610448671351">
+    <state x="2453" y="263" key="#com.intellij.ide.util.MemberChooser/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612275389814" />
+    <state width="450" height="466" key="DebuggerActiveHint" timestamp="1612276244399">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="257" key="GridCell.Tab.0.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1610448671351" />
-    <state width="1878" height="257" key="GridCell.Tab.0.left" timestamp="1610448671350">
+    <state width="450" height="466" key="DebuggerActiveHint/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612276244399" />
+    <state width="1878" height="376" key="GridCell.Tab.0.bottom" timestamp="1612278437902">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="257" key="GridCell.Tab.0.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1610448671350" />
-    <state width="1878" height="257" key="GridCell.Tab.0.right" timestamp="1610448671352">
+    <state width="1878" height="376" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612278437902" />
+    <state width="1878" height="376" key="GridCell.Tab.0.center" timestamp="1612278437900">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="257" key="GridCell.Tab.0.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1610448671352" />
+    <state width="1878" height="376" key="GridCell.Tab.0.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612278437900" />
+    <state width="1878" height="376" key="GridCell.Tab.0.left" timestamp="1612278437899">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.0.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612278437899" />
+    <state width="1878" height="376" key="GridCell.Tab.0.right" timestamp="1612278437901">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.0.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612278437901" />
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom" timestamp="1612278437906">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612278437906" />
+    <state width="1878" height="376" key="GridCell.Tab.1.center" timestamp="1612278437904">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612278437904" />
+    <state width="1878" height="376" key="GridCell.Tab.1.left" timestamp="1612278437903">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612278437903" />
+    <state width="1878" height="376" key="GridCell.Tab.1.right" timestamp="1612278437905">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612278437905" />
+    <state x="2378" y="285" key="extract.method.dialog" timestamp="1612275306729">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2378" y="285" key="extract.method.dialog/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612275306729" />
+    <state x="2342" y="313" key="refactoring.ChangeSignatureDialog" timestamp="1612276443549">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2342" y="313" key="refactoring.ChangeSignatureDialog/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612276443549" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
