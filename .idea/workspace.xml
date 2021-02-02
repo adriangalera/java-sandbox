@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="067797c0-ea7b-4e71-a49d-6c39e2ce305c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/codewars/Change.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/codewars/Ball.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,51 +106,51 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Change">
+  <component name="RunManager" selected="Gradle.Ball.test">
+    <configuration name="Ball" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;codewars.Ball&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Ball.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;codewars.Ball.test&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Change" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;codewars.Change&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="Change.shouldReturnChangeForOneCoin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;codewars.Change.shouldReturnChangeForOneCoin&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="Change.shouldReturnChangeForTwoCoins" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;codewars.Change.shouldReturnChangeForTwoCoins&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -204,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Ball.test" />
+        <item itemvalue="Gradle.Ball" />
         <item itemvalue="Gradle.Change" />
         <item itemvalue="Gradle.Change.shouldReturnLeastAmountOfCoinsInSimpleSituation" />
         <item itemvalue="Gradle.Change.shouldReturnChangeForTwoPennies" />
-        <item itemvalue="Gradle.Change.shouldReturnChangeForOneCoin" />
-        <item itemvalue="Gradle.Change.shouldReturnChangeForTwoCoins" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +262,7 @@
       <workItem from="1598443791613" duration="3069000" />
       <workItem from="1598514414687" duration="14000" />
       <workItem from="1610447306493" duration="550000" />
-      <workItem from="1612272974315" duration="4721000" />
+      <workItem from="1612272974315" duration="8161000" />
     </task>
     <servers />
   </component>
@@ -282,42 +282,42 @@
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state width="450" height="466" key="DebuggerActiveHint/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612276244399" />
-    <state width="1878" height="376" key="GridCell.Tab.0.bottom" timestamp="1612278437902">
+    <state width="1878" height="257" key="GridCell.Tab.0.bottom" timestamp="1612283072010">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="376" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612278437902" />
-    <state width="1878" height="376" key="GridCell.Tab.0.center" timestamp="1612278437900">
+    <state width="1878" height="257" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612283072010" />
+    <state width="1878" height="257" key="GridCell.Tab.0.center" timestamp="1612283072008">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="376" key="GridCell.Tab.0.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612278437900" />
-    <state width="1878" height="376" key="GridCell.Tab.0.left" timestamp="1612278437899">
+    <state width="1878" height="257" key="GridCell.Tab.0.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612283072008" />
+    <state width="1878" height="257" key="GridCell.Tab.0.left" timestamp="1612283072007">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="376" key="GridCell.Tab.0.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612278437899" />
-    <state width="1878" height="376" key="GridCell.Tab.0.right" timestamp="1612278437901">
+    <state width="1878" height="257" key="GridCell.Tab.0.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612283072007" />
+    <state width="1878" height="257" key="GridCell.Tab.0.right" timestamp="1612283072009">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="376" key="GridCell.Tab.0.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612278437901" />
-    <state width="1878" height="376" key="GridCell.Tab.1.bottom" timestamp="1612278437906">
+    <state width="1878" height="257" key="GridCell.Tab.0.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612283072009" />
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom" timestamp="1612281931364">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="376" key="GridCell.Tab.1.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612278437906" />
-    <state width="1878" height="376" key="GridCell.Tab.1.center" timestamp="1612278437904">
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612281931364" />
+    <state width="1878" height="376" key="GridCell.Tab.1.center" timestamp="1612281931362">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="376" key="GridCell.Tab.1.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612278437904" />
-    <state width="1878" height="376" key="GridCell.Tab.1.left" timestamp="1612278437903">
+    <state width="1878" height="376" key="GridCell.Tab.1.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612281931362" />
+    <state width="1878" height="376" key="GridCell.Tab.1.left" timestamp="1612281931361">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="376" key="GridCell.Tab.1.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612278437903" />
-    <state width="1878" height="376" key="GridCell.Tab.1.right" timestamp="1612278437905">
+    <state width="1878" height="376" key="GridCell.Tab.1.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612281931361" />
+    <state width="1878" height="376" key="GridCell.Tab.1.right" timestamp="1612281931363">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="376" key="GridCell.Tab.1.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612278437905" />
-    <state x="2378" y="285" key="extract.method.dialog" timestamp="1612275306729">
+    <state width="1878" height="376" key="GridCell.Tab.1.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612281931363" />
+    <state x="2378" y="285" key="extract.method.dialog" timestamp="1612282730911">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
-    <state x="2378" y="285" key="extract.method.dialog/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612275306729" />
+    <state x="2378" y="285" key="extract.method.dialog/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612282730911" />
     <state x="2342" y="313" key="refactoring.ChangeSignatureDialog" timestamp="1612276443549">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
