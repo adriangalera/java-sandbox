@@ -72,15 +72,6 @@ public class Change {
         assertEquals(emptyChange(), looseChange(0));
     }
 
-//    @Test
-//    public void shouldRoundDownFloat() {
-//        //loose_change(4.935) ==>  {'Nickels': 0, 'Pennies': 4, 'Dimes': 0, 'Quarters': 0}
-//        Map<String, Integer> change = emptyChange();
-//        change.put(Coin.PENNIES.name, 4);
-//        //assertEquals(change, looseChange(4.935f));
-//        fail("to be implemented");
-//    }
-
     @Test
     public void shouldReturnLeastAmountOfCoinsInSimpleSituation() {
         HashMap<String, Integer> expectedChange = emptyChange();
