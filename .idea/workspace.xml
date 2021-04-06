@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="067797c0-ea7b-4e71-a49d-6c39e2ce305c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MultipleConditionIf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/java-sandbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/java-sandbox.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gal/test/ListPackageResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/files/b" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +42,11 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="java-sandbox" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="java-sandbox" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
             </expand>
             <select />
@@ -88,24 +96,60 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources/fonts" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/resources/files" />
+      <recent name="$PROJECT_DIR$/src/test/resources/fonts" />
+      <recent name="$PROJECT_DIR$/src/test/resources/jap" />
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="codewars" />
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources/fonts" />
-      <recent name="$PROJECT_DIR$/src/test/resources/jap" />
-      <recent name="$PROJECT_DIR$/src/test" />
-    </key>
   </component>
-  <component name="RunManager" selected="Gradle.MultipleConditionIf.shouldNotInvokeSecondCondition">
+  <component name="RunManager" selected="Application.ListPackageResources">
+    <configuration name="ListPackageResources" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gal.test.ListPackageResources" />
+      <module name="java-sandbox.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gal.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultipleConditionIf" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;MultipleConditionIf&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="MultipleConditionIf.shouldNotInvokeSecondCondition" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -127,12 +171,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SnakesLadders" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests in 'java-sandbox.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;codewars.SnakesLadders&quot;" />
+        <option name="scriptParameters" value="--tests *" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -148,76 +192,34 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SnakesLaddersTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="java-sandbox [wrapper]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;codewars.SnakesLaddersTest&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
+            <option value="wrapper" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SnakesLaddersTest.playerShouldWinWhenExactHundred" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;codewars.SnakesLaddersTest.playerShouldWinWhenExactHundred&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SnakesLadders.playerShouldWinWhenExactHundred" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;codewars.SnakesLadders.playerShouldWinWhenExactHundred&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListPackageResources" />
+        <item itemvalue="Gradle.Tests in 'java-sandbox.test'" />
+        <item itemvalue="Gradle.java-sandbox [wrapper]" />
+        <item itemvalue="Gradle.MultipleConditionIf" />
         <item itemvalue="Gradle.MultipleConditionIf.shouldNotInvokeSecondCondition" />
-        <item itemvalue="Gradle.SnakesLaddersTest" />
-        <item itemvalue="Gradle.SnakesLaddersTest.playerShouldWinWhenExactHundred" />
-        <item itemvalue="Gradle.SnakesLadders" />
-        <item itemvalue="Gradle.SnakesLadders.playerShouldWinWhenExactHundred" />
       </list>
     </recent_temporary>
   </component>
@@ -275,76 +277,14 @@
       <workItem from="1612294007611" duration="3433000" />
       <workItem from="1612338048847" duration="463000" />
       <workItem from="1612339239219" duration="130000" />
-      <workItem from="1617001909186" duration="322000" />
+      <workItem from="1617001909186" duration="434000" />
+      <workItem from="1617192910856" duration="3340000" />
+      <workItem from="1617692927923" duration="39000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="2128" y="133" key="#Project_Structure" timestamp="1612272981035">
-      <screen x="1680" y="23" width="1920" height="1057" />
-    </state>
-    <state x="2128" y="133" key="#Project_Structure/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1612272981035" />
-    <state x="676" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1612299154712">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="676" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1612299154712" />
-    <state x="2453" y="263" key="#com.intellij.ide.util.MemberChooser/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612275389814" />
-    <state width="450" height="466" key="DebuggerActiveHint" timestamp="1612276244399">
-      <screen x="1680" y="0" width="1920" height="1080" />
-    </state>
-    <state width="450" height="466" key="DebuggerActiveHint/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612276244399" />
-    <state width="1638" height="248" key="GridCell.Tab.0.bottom" timestamp="1612339227077">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="248" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1612339227077" />
-    <state width="1878" height="257" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612283345027" />
-    <state width="1638" height="248" key="GridCell.Tab.0.center" timestamp="1612339227076">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="248" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1612339227076" />
-    <state width="1878" height="257" key="GridCell.Tab.0.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612283345025" />
-    <state width="1638" height="248" key="GridCell.Tab.0.left" timestamp="1612339227076">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="248" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1612339227076" />
-    <state width="1878" height="257" key="GridCell.Tab.0.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612283345023" />
-    <state width="1638" height="248" key="GridCell.Tab.0.right" timestamp="1612339227077">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="248" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1612339227077" />
-    <state width="1878" height="257" key="GridCell.Tab.0.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612283345026" />
-    <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1612300285361">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="364" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1612300285361" />
-    <state width="1878" height="376" key="GridCell.Tab.1.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612283345019" />
-    <state width="1638" height="364" key="GridCell.Tab.1.center" timestamp="1612300285360">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="364" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1612300285360" />
-    <state width="1878" height="376" key="GridCell.Tab.1.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612283345016" />
-    <state width="1638" height="364" key="GridCell.Tab.1.left" timestamp="1612300285360">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="364" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1612300285360" />
-    <state width="1878" height="376" key="GridCell.Tab.1.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612283345015" />
-    <state width="1638" height="364" key="GridCell.Tab.1.right" timestamp="1612300285360">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="364" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1612300285360" />
-    <state width="1878" height="376" key="GridCell.Tab.1.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612283345018" />
-    <state x="611" y="277" key="extract.method.dialog" timestamp="1612299688981">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="611" y="277" key="extract.method.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1612299688981" />
-    <state x="2378" y="285" key="extract.method.dialog/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612282730911" />
-    <state x="2342" y="313" key="refactoring.ChangeSignatureDialog" timestamp="1612276443549">
-      <screen x="1680" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2342" y="313" key="refactoring.ChangeSignatureDialog/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1612276443549" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
