@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="067797c0-ea7b-4e71-a49d-6c39e2ce305c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gal/test/ListPackageResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/files/b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +62,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="JupyterTrust" id="23e51880-287b-47bb-ae64-db1522f5a3b4" />
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -91,9 +95,10 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.26006907" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -115,26 +120,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListPackageResources">
-    <configuration name="ListPackageResources" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gal.test.ListPackageResources" />
-      <module name="java-sandbox.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gal.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultipleConditionIf" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.SwedishNegativeSymbol">
+    <configuration name="SwedishNegativeSymbol" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;MultipleConditionIf&quot;" />
+        <option name="scriptParameters" value="--tests &quot;SwedishNegativeSymbol&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -150,12 +142,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MultipleConditionIf.shouldNotInvokeSecondCondition" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SwedishNegativeSymbol.printNegativeSymbols" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;MultipleConditionIf.shouldNotInvokeSecondCondition&quot;" />
+        <option name="scriptParameters" value="--tests &quot;SwedishNegativeSymbol.printNegativeSymbols&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -171,12 +163,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'java-sandbox.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SwedishNegativeSymbol.shouldParseNegativeNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests *" />
+        <option name="scriptParameters" value="--tests &quot;SwedishNegativeSymbol.shouldParseNegativeNumber&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -192,34 +184,55 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="java-sandbox [wrapper]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SwedishNegativeSymbol.shouldParseNegativeNumberAndWorksOnJava11" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--tests &quot;SwedishNegativeSymbol.shouldParseNegativeNumberAndWorksOnJava11&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="wrapper" />
+            <option value=":test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SwedishNegativeSymbol.shouldUseSameNegativeSymbol" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;SwedishNegativeSymbol.shouldUseSameNegativeSymbol&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ListPackageResources" />
-        <item itemvalue="Gradle.Tests in 'java-sandbox.test'" />
-        <item itemvalue="Gradle.java-sandbox [wrapper]" />
-        <item itemvalue="Gradle.MultipleConditionIf" />
-        <item itemvalue="Gradle.MultipleConditionIf.shouldNotInvokeSecondCondition" />
+        <item itemvalue="Gradle.SwedishNegativeSymbol" />
+        <item itemvalue="Gradle.SwedishNegativeSymbol.printNegativeSymbols" />
+        <item itemvalue="Gradle.SwedishNegativeSymbol.shouldUseSameNegativeSymbol" />
+        <item itemvalue="Gradle.SwedishNegativeSymbol.shouldParseNegativeNumberAndWorksOnJava11" />
+        <item itemvalue="Gradle.SwedishNegativeSymbol.shouldParseNegativeNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +292,22 @@
       <workItem from="1612339239219" duration="130000" />
       <workItem from="1617001909186" duration="434000" />
       <workItem from="1617192910856" duration="3340000" />
-      <workItem from="1617692927923" duration="39000" />
+      <workItem from="1617692927923" duration="696000" />
+      <workItem from="1617711968955" duration="227000" />
+      <workItem from="1617952042330" duration="7958000" />
+      <workItem from="1618209281220" duration="590000" />
+      <workItem from="1618217309579" duration="2225000" />
+      <workItem from="1618296928579" duration="8000" />
+      <workItem from="1619437760966" duration="1374000" />
+      <workItem from="1619449563753" duration="3000" />
+      <workItem from="1620043278672" duration="73000" />
+      <workItem from="1620043430974" duration="3064000" />
+      <workItem from="1620051133906" duration="1843000" />
+      <workItem from="1620113779621" duration="12000" />
+      <workItem from="1620133169676" duration="177000" />
+      <workItem from="1620133918121" duration="14000" />
+      <workItem from="1620309750169" duration="2205000" />
+      <workItem from="1620370306726" duration="81000" />
     </task>
     <servers />
   </component>
@@ -306,6 +334,14 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_sandbox$GameOfLife.ic" NAME="GameOfLife Coverage Results" MODIFIED="1620051533552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/java_sandbox$GameOfLifeTest.ic" NAME="GameOfLifeTest Coverage Results" MODIFIED="1620051743260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
