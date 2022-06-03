@@ -6,8 +6,8 @@ public class Java8ItemFinder extends ItemFinder {
 
     @Override
     public String findItem(List<String> items) {
-        return findItemsStartingWithA(items)
-            .orElseGet(() -> findItemsStartingWithB(items)
+        return findFirstItemStartingWithA(items)
+            .orElseGet(() -> findFirstItemStartingWithB(items)
                 .orElseThrow(() -> new RuntimeException("no item found")));
     }
 }
